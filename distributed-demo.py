@@ -19,7 +19,7 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser(description='Run a Multi Worker TF training job')
     parser.add_argument('--worker', default=0, help='process worker number', type=int)
     parser.add_argument('--batch_size', default=64, help='batch size per worker', type=int)
-    parser.add_argument('--epochs', default=5, help='number of epochs', type=int)
+    parser.add_argument('--epochs', default=20, help='number of epochs', type=int)
     parser.add_argument('--steps', default=70, help='number of steps per epoch' ,type=int)
 
     args = parser.parse_args()
