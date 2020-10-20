@@ -42,3 +42,8 @@ def build_and_compile_cnn_model():
 
 
     return model
+
+"""
+    References:
+        [1]. https://www.tensorflow.org/tutorials/distribute/multi_worker_with_keras
+"""
